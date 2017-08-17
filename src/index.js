@@ -10,9 +10,7 @@ function component() {
 
     const myIcon = new Image();
     myIcon.src = Icon;
-    // console.log(myIcon);
-    // element.appendChild(myIcon);
-    console.log(myIcon);
+    element.appendChild(myIcon);
 
 
     return element;

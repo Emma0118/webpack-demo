@@ -87,9 +87,7 @@ function component() {
 
     const myIcon = new Image();
     myIcon.src = __WEBPACK_IMPORTED_MODULE_2__icon_png___default.a;
-    // console.log(myIcon);
-    // element.appendChild(myIcon);
-    console.log(myIcon);
+    element.appendChild(myIcon);
 
 
     return element;
@@ -17284,7 +17282,7 @@ exports = module.exports = __webpack_require__(6)(undefined);
 
 
 // module
-exports.push([module.i, "body{\n    color: rebeccapurple;\n    /*background: url('./icon.png');*/\n}\n\n\n\n", ""]);
+exports.push([module.i, "body{\r\n    color: rebeccapurple;\r\n    /*background: url('./icon.png');*/\r\n}\r\n\r\n\r\n\r\n", ""]);
 
 // exports
 
