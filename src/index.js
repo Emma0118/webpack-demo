@@ -1,18 +1,22 @@
 import _ from "lodash";
 import './style.css';
-import Icon from './icon.png'; //获取路径 output 输入最好的路径
+import printMe from './print';
+import emma from './emma';
 
 function component() {
-    var element = document.createElement('div');
+    const element = document.createElement('div');
+    const btn = document.createElement('button');
+    const emmaem = document.createElement('em');
 
     // Lodash（目前通过一个 script 脚本引入）对于执行这一行是必需的
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
 
-    const myIcon = new Image();
-    myIcon.src = Icon;
-    element.appendChild(myIcon);
-
-
+   btn.innerHTML = 'Click me and check the console!';
+    emmaem.innerHTML = 'Click to show emma';
+    emmaem.onclick = emma
+    btn.onclick = printMe;
+    element.appendChild(btn);
+    element.appendChild(emmaem);
     return element;
 }
 

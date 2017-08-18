@@ -1,0 +1,6 @@
+{
+  "name": "my manifest",
+  "/dist/app.js": "/dist/app.bundle.js",
+  "/dist/emma.js": "/dist/emma.bundle.js",
+  "/dist/print.js": "/dist/print.bundle.js"
+}
