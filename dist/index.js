@@ -57,7 +57,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/webpack-demo/dist/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 0);
@@ -73,8 +73,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__icon_png__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__icon_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__icon_png__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__1_png__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__1_png___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__1_png__);
 
 
  //获取路径 output 输入最好的路径
@@ -86,7 +86,8 @@ function component() {
     element.innerHTML = __WEBPACK_IMPORTED_MODULE_0_lodash___default.a.join(['Hello', 'webpack'], ' ');
 
     const myIcon = new Image();
-    myIcon.src = __WEBPACK_IMPORTED_MODULE_2__icon_png___default.a;
+    myIcon.src = __WEBPACK_IMPORTED_MODULE_2__1_png___default.a;
+    console.log(myIcon);
     element.appendChild(myIcon);
 
 
@@ -17282,7 +17283,7 @@ exports = module.exports = __webpack_require__(6)(undefined);
 
 
 // module
-exports.push([module.i, "body{\r\n    color: rebeccapurple;\r\n    /*background: url('./icon.png');*/\r\n}\r\n\r\n\r\n\r\n", ""]);
+exports.push([module.i, "body{\n    color: rebeccapurple;\n    /*background: url('./icon.png');*/\n}\n\n\n\n", ""]);
 
 // exports
 
@@ -17827,7 +17828,7 @@ module.exports = function (css) {
 /* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "6502ac9a1095fc5683e842397c4b48dc.png";
+module.exports = __webpack_require__.p + "9403ff5a3d4d68db02e0cf1fee291ace.png";
 
 /***/ })
 /******/ ]);

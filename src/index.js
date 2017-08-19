@@ -1,6 +1,6 @@
 import _ from "lodash";
 import './style.css';
-import Icon from './icon.png'; //获取路径 output 输入最好的路径
+import Icon from './1.png'; //获取路径 output 输入最好的路径
 
 function component() {
     var element = document.createElement('div');
@@ -10,6 +10,7 @@ function component() {
 
     const myIcon = new Image();
     myIcon.src = Icon;
+    console.log(myIcon);
     element.appendChild(myIcon);
 
 
